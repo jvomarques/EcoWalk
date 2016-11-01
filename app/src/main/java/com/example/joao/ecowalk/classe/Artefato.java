@@ -9,7 +9,7 @@ public class Artefato
     Double latidude, longitude;
 
     /*GETTERS*/
-    public String getInformacoes_ecologicas(){
+    public String Informacoes_ecologicas(){
         return informacoes_ecologicas;
     }
 
