@@ -1,0 +1,67 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".telas.MenuActivity"
+    android:weightSum="1">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".telas.MenuActivity"
+        android:weightSum="1">
+        <Button
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="Pontos de resíduos"
+            android:id="@+id/bt_residuo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="70dp"
+            android:layout_above="@+id/bt_login"
+            android:layout_alignLeft="@+id/bt_login"
+            android:layout_alignStart="@+id/bt_login" />
+
+        <Button
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fazer_login"
+            android:id="@+id/bt_login"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="72dp"
+            android:layout_above="@+id/bt_configuracoes"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="@string/configuracoes"
+            android:id="@+id/bt_configuracoes"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/bt_login"
+            android:layout_alignStart="@+id/bt_login" />
+
+            <Button
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="@string/rotas"
+            android:id="@+id/bt_rotas"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="65dp"
+            android:layout_above="@+id/bt_residuo"
+            android:layout_alignLeft="@+id/bt_residuo"
+            android:layout_alignStart="@+id/bt_residuo" />
+
+    </RelativeLayout>
+
+</AbsoluteLayout>
+
+
+
+

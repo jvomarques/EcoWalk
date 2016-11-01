@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.joao.ecowalk.telas.AddLixoActivity">
+
+    <RelativeLayout
+
+        android:id="@+id/rl_addresiduo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tb_lixo"
+            android:layout_height="wrap_content"
+            android:layout_width="389dp"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:titleTextColor="@android:color/white"
+            app:theme="@style/Theme.MyThemeToolbar"
+            />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nome do local"
+            android:id="@+id/textView_nome_local"
+            android:layout_below="@+id/tb_lixo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="28dp" />
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_nome_local"
+            android:layout_below="@+id/textView_nome_local"
+            android:layout_alignLeft="@+id/textView_nome_local"
+            android:layout_alignStart="@+id/textView_nome_local"
+            android:layout_alignRight="@+id/textView_nome_local"
+            android:layout_alignEnd="@+id/textView_nome_local" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Descricao"
+            android:id="@+id/textView_descricao_local"
+            android:layout_below="@+id/editText_nome_local"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="28dp" />
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_descricao_local"
+            android:layout_below="@+id/textView_descricao_local"
+            android:layout_alignLeft="@+id/textView_nome_local"
+            android:layout_alignStart="@+id/textView_nome_local"
+            android:layout_alignRight="@+id/textView_nome_local"
+            android:layout_alignEnd="@+id/textView_nome_local" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Informações ecólogicas"
+            android:id="@+id/textView_info_ecologicas"
+            android:layout_below="@+id/editText_descricao_local"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="28dp" />
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_info_ecologicas"
+            android:layout_below="@+id/textView_info_ecologicas"
+            android:layout_alignLeft="@+id/textView_nome_local"
+            android:layout_alignStart="@+id/textView_nome_local"
+            android:layout_alignRight="@+id/textView_nome_local"
+            android:layout_alignEnd="@+id/textView_nome_local" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Adicionar"
+            android:id="@+id/bt_adicionar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

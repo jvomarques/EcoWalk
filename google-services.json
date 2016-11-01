@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "976018326733",
+    "project_id": "ecowalk-76659"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976018326733:android:ff585c5529a0b510",
+        "android_client_info": {
+          "package_name": "com.example.joao.ecowalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCng4DqmP84yf_v699Ppo_hi1R_ufIVNFY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
